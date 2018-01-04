@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1870EB2C1FFCD65C009DABF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870EB2B1FFCD65C009DABF0 /* AppDelegate.swift */; };
-		1870EB2E1FFCD65C009DABF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870EB2D1FFCD65C009DABF0 /* ViewController.swift */; };
 		1870EB311FFCD65C009DABF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1870EB2F1FFCD65C009DABF0 /* Main.storyboard */; };
 		1870EB331FFCD65C009DABF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1870EB321FFCD65C009DABF0 /* Assets.xcassets */; };
 		1870EB361FFCD65C009DABF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1870EB341FFCD65C009DABF0 /* LaunchScreen.storyboard */; };
 		1870EB411FFCD65D009DABF0 /* SegmentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870EB401FFCD65D009DABF0 /* SegmentViewTests.swift */; };
 		1870EB4C1FFCD65D009DABF0 /* SegmentViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870EB4B1FFCD65D009DABF0 /* SegmentViewUITests.swift */; };
+		1870EB5C1FFCD690009DABF0 /* ScrollSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870EB591FFCD690009DABF0 /* ScrollSegmentView.swift */; };
+		1870EB5D1FFCD690009DABF0 /* SegmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870EB5A1FFCD690009DABF0 /* SegmentVC.swift */; };
+		1870EB5E1FFCD690009DABF0 /* SegmentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870EB5B1FFCD690009DABF0 /* SegmentStyle.swift */; };
+		1870EB601FFCDA1B009DABF0 /* ce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870EB5F1FFCDA1B009DABF0 /* ce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		1870EB281FFCD65C009DABF0 /* SegmentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1870EB2B1FFCD65C009DABF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1870EB2D1FFCD65C009DABF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1870EB301FFCD65C009DABF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1870EB321FFCD65C009DABF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1870EB351FFCD65C009DABF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		1870EB471FFCD65D009DABF0 /* SegmentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1870EB4B1FFCD65D009DABF0 /* SegmentViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewUITests.swift; sourceTree = "<group>"; };
 		1870EB4D1FFCD65D009DABF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1870EB591FFCD690009DABF0 /* ScrollSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollSegmentView.swift; sourceTree = "<group>"; };
+		1870EB5A1FFCD690009DABF0 /* SegmentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentVC.swift; sourceTree = "<group>"; };
+		1870EB5B1FFCD690009DABF0 /* SegmentStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentStyle.swift; sourceTree = "<group>"; };
+		1870EB5F1FFCDA1B009DABF0 /* ce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ce.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		1870EB2A1FFCD65C009DABF0 /* SegmentView */ = {
 			isa = PBXGroup;
 			children = (
+				1870EB591FFCD690009DABF0 /* ScrollSegmentView.swift */,
+				1870EB5B1FFCD690009DABF0 /* SegmentStyle.swift */,
+				1870EB5A1FFCD690009DABF0 /* SegmentVC.swift */,
 				1870EB2B1FFCD65C009DABF0 /* AppDelegate.swift */,
-				1870EB2D1FFCD65C009DABF0 /* ViewController.swift */,
 				1870EB2F1FFCD65C009DABF0 /* Main.storyboard */,
 				1870EB321FFCD65C009DABF0 /* Assets.xcassets */,
 				1870EB341FFCD65C009DABF0 /* LaunchScreen.storyboard */,
 				1870EB371FFCD65C009DABF0 /* Info.plist */,
+				1870EB5F1FFCDA1B009DABF0 /* ce.swift */,
 			);
 			path = SegmentView;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1870EB2E1FFCD65C009DABF0 /* ViewController.swift in Sources */,
+				1870EB5C1FFCD690009DABF0 /* ScrollSegmentView.swift in Sources */,
+				1870EB5D1FFCD690009DABF0 /* SegmentVC.swift in Sources */,
+				1870EB601FFCDA1B009DABF0 /* ce.swift in Sources */,
 				1870EB2C1FFCD65C009DABF0 /* AppDelegate.swift in Sources */,
+				1870EB5E1FFCD690009DABF0 /* SegmentStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

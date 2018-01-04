@@ -12,10 +12,16 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var rootNav: UINavigationController!
+    var rootViewController: UIViewController!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        rootViewController = SegmentVC()
+        rootNav = UINavigationController(rootViewController: rootViewController)
+        
+        window?.rootViewController = rootViewController
+        window?.addSubview(rootNav.view)
         return true
     }
 
